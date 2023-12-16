@@ -1,6 +1,7 @@
 # HirschViz
 Hirschberg Linear Space Global Alignment Visualizer
 
+There are many interactive tools available for visualizing the Needleman-Wunsch algorithm like [Alignment Visualizer](https://valiec.github.io/AlignmentVisualizer/index.html}) and [Interactive NW](http://experiments.mostafa.io/public/needleman-wunsch/). However, in the case of Hirschberg's algorithm, a quick Google search leads only to some online content showcasing Hirschberg's visualization through YouTube videos [Hirschebrg Video](https://www.youtube.com/watch?v=cPQeJt-2Y1Q) and static images. Most visualizations only show the final result without detailing the step-by-step process, especially the recursive steps that are crucial for a deeper understanding. Also, a quick online search did not yield any tool offering a detailed, step-by-step view of how Hirschberg's algorithm fills its tables recursively. This gap in available resources motivates the need to create this `HirschViz` tool that focuses on showing these recursive steps in a clear and accessible way, aiming to help students better grasp the internals of the algorithm.
 
 # Dependencies
 - Python installation version > 3.9 (This project uses version 3.9.6)
@@ -48,5 +49,27 @@ The console output should be this
   ![recurstion_tree.gif](https://github.com/VidyaKamath/HirschViz/blob/main/results/visualization/recursion_tree.gif)
 - `dp_recur.gif`: Animation showing the recursive Dynamic programming for optimal alignment path search.
   ![dp_recur.gif](https://github.com/VidyaKamath/HirschViz/blob/main/results/visualization/dp_recur.gif)
+
+## Running Benchmark
+### Computing optimal alignment score: linear space v/s quadratic space
+```
+python3 run_benchmark.py --start 0 --stop 8500 --step 500 -o score_benchmark.csv --score-only
+```
+Output file: [score_benchmark.csv](https://github.com/VidyaKamath/HirschViz/blob/main/results/evaluation/score_benchmark_0_8000.csv)
+
+### Finding optimal alignment: linear space v/s quadratic space
+```
+python3 run_benchmark.py --start 0 --stop 8500 --step 500 -o alignment_benchmark.csv
+```
+Output file: [alignment_benchmark.csv](https://github.com/VidyaKamath/HirschViz/blob/main/results/evaluation/alignment_benchmark_0_8000.csv)
+
+### Computing optimal score and  alignment: linear space v/s quadratic space
+```
+python3 run_benchmark.py --start 0 --stop 10 --step 1 -o score_alignment_benchmark.csv --both
+```
+Output file: [score_alignment_benchmark.csv](https://github.com/VidyaKamath/HirschViz/blob/main/results/evaluation/correctness_check_alignment.csv)
+
+
+ 
 
 
