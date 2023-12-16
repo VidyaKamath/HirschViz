@@ -1,0 +1,4 @@
+matplotlib
+memory-profiler
+recursion-visualiser
+pandas
