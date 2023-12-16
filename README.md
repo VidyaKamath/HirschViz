@@ -41,8 +41,9 @@ The console output should be this
   Writing gif...
   Saved gif /Users/vkpailodi/hirsch_vizop/recursion_tree.gif successfully
   ```
-- This command will generate multiple *.png files and two *.gif files. For sample output files, see results/visualization
+- This command will generate multiple *.png files and two *.gif files. For sample output files, see [results](https://github.com/VidyaKamath/HirschViz/blob/main/results/visualization/)
 - `recursion_tree.png`: A static image file showing the recursion tree with all the intermediate variable values.
+  ![recurstion_tree.png](https://github.com/VidyaKamath/HirschViz/blob/main/results/visualization/recursion_tree.png)
 - `recursion_tre.gif`: Animation showing the order of recursive function calls for Hirschberg Algorithm
   ![recurstion_tree.gif](https://github.com/VidyaKamath/HirschViz/blob/main/results/visualization/recursion_tree.gif)
 - `dp_recur.gif`: Animation showing the recursive Dynamic programming for optimal alignment path search.
