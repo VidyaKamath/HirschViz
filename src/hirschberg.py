@@ -87,8 +87,7 @@ class Hirschberg(object):
     def reconstruct_path(s1, s2, cells):
         """
         _summary_
-
-        Reference: This function was taken from a guthub repo. Update this to use column  wise
+        Reference: This function was taken from a GitHub repo. Todo: Update this to use column-wise instead of row-wise
         """
         len1 = len(s1)
         len2 = len(s2)
