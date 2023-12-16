@@ -97,13 +97,13 @@ def main():
     parser.add_argument('-o', type=str, help="csv file to save results")
 
     # Required integer arguments
-    parser.add_argument('--start', type=int, required=True, help='start Sequence length')
+    parser.add_argument('--start', type=int, required=True, help='start sequence length')
     parser.add_argument('--stop', type=int, required=True, help='stop sequence length')
     parser.add_argument('--step', type=int, required=True, help='step size')
 
     # Optional boolean argument
-    parser.add_argument('--score-only', action='store_true', help='Run benchmark to compute score / otherwise to find the alignement')
-    parser.add_argument('--both', action='store_true', help='Run benchmark to compute score and to find the alignement')
+    parser.add_argument('--score-only', action='store_true', help='Run benchmark to compute score / otherwise to find the alignment')
+    parser.add_argument('--both', action='store_true', help='Run benchmark to compute score and to find the alignment')
 
     args = parser.parse_args()
 
