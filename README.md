@@ -25,8 +25,37 @@ source <env_path>/bin/activate
 ```
 pip install -r requirements.txt
 ```
+# Available Commands
+## To generate step-by-step visualization for Hirschberg Algorithm use the below command. 
+- See [Quick Start](#Quick_Start) for an example command.
+```
+(hirsch_viz) vkpailodi@Vidyas-MacBook-Air HirschViz % python3 hirschviz.py -h
+usage: hirschviz.py [-h] -o O -v V -w W
 
-# Quick Start
+optional arguments:
+  -h, --help  show this help message and exit
+  -o O        Output directory to save visualization files
+  -v V        Sequence 1
+  -w W        Sequence 2
+```
+## To run benchmark use the below command 
+- See [Quick Start](#Quick_Start) for an example command.
+```
+(hirsch_viz) vkpailodi@Vidyas-MacBook-Air HirschViz % python3 run_benchmark.py -h
+usage: run_benchmark.py [-h] [-o O] --start START --stop STOP --step STEP [--score-only] [--both] 
+
+Argument Parser Example
+
+optional arguments:
+  -h, --help     show this help message and exit
+  -o O           csv file to save results
+  --start START  start sequence length
+  --stop STOP    stop sequence length
+  --step STEP    step size
+  --score-only   Run benchmark to compute score / otherwise to find the alignment
+  --both         Run benchmark to compute score and to find the alignment
+```
+# Quick_Start
 - Make sure the current directory is the root folder of the cloned repository directory
 - Make sure the Setup is successful and the environment is activated
 ## Run Hirschberg Visualization
