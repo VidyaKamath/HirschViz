@@ -39,7 +39,7 @@ optional arguments:
   -w W        Sequence 2
 ```
 ## To run benchmark use the below command 
-- See [Quick Start](#Quick_Start) for an example command.
+- See [Quick Start](#running-benchmark) for an example command.
 ```
 (hirsch_viz) vkpailodi@Vidyas-MacBook-Air HirschViz % python3 run_benchmark.py -h
 usage: run_benchmark.py [-h] [-o O] --start START --stop STOP --step STEP [--score-only] [--both] 
