@@ -98,6 +98,16 @@ python3 run_benchmark.py --start 0 --stop 10 --step 1 -o score_alignment_benchma
 ```
 Output file: [score_alignment_benchmark.csv](https://github.com/VidyaKamath/HirschViz/blob/main/results/evaluation/correctness_check_alignment.csv)
 
+## More Visualization Examples
+- [ex_1](https://github.com/VidyaKamath/HirschViz/blob/main/examples/ex_1/dp_recur.gif)
+- [ex_2](https://github.com/VidyaKamath/HirschViz/blob/main/examples/ex_2/dp_recur.gif)
+
+# Future Work
+- Extend this for any scoring function or protein sequences.
+- Add animation to show the two-column usage for score computation.
+- Add a similar visualization to Needleman-Wunsch.
+
+
 
  
 
