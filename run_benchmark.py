@@ -1,5 +1,4 @@
 from memory_profiler import memory_usage
-from Bio.Seq import Seq
 import random
 import argparse
 
