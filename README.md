@@ -107,6 +107,8 @@ Output file: [score_alignment_benchmark.csv](https://github.com/VidyaKamath/Hirs
 - Add animation to show the two-column usage for score computation.
 - Add a similar visualization to Needleman-Wunsch.
 
+This tool is developed as part of a course project during my Master's at UIUC. The detailed project report can be found here: [HirschViz Project Report](https://github.com/VidyaKamath/HirschViz/blob/main/report.pdf)
+
 
 
  
