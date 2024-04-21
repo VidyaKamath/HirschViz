@@ -6,8 +6,6 @@ def main():
 
     # Required string arguments
     parser.add_argument('-o', type=str, required=True,help="Output directory to save visualization files")
-
-    # Required integer arguments
     parser.add_argument('-v', type=str, required=True, help='Sequence 1')
     parser.add_argument('-w', type=str, required=True, help='Sequence 2')
 
